@@ -60,7 +60,7 @@ case $CHOICE in
       fi
 	  ;;
     m)
-      yt-dlp -n -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --convert-thumbnail jpg --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" --exec ffprobe --add-metadata --no-mtime -o "/storage/emulated/0/Music/%(title)s.%(ext)s" $target
+      yt-dlp -n -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --convert-thumbnail jpg --ppa "EmbedThumbnail+ffmpeg_o:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" --exec ffprobe --add-metadata --no-mtime -o "/storage/emulated/0/Music/%(artist,uploader)s - %(title)s.%(ext)s" $target
       if [ $? -eq 0 ] ; then
         termux-toast -g top -b white -c black Download finalizado
         echo "${LG}Feito.${R}"

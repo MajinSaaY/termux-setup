@@ -33,6 +33,7 @@ Selecione uma das opções exibidas:
 - [FFmpeg](https://ffmpeg.org/)
 - [mutagen](https://mutagen.readthedocs.io/en/latest/index.html)
 - [ImageMagick](https://imagemagick.org/index.php)
+- [ExifTool](https://exiftool.org/)
 
 # Créditos
 - [termux-url-opener do LordH3lmchen](https://gist.github.com/LordH3lmchen/dc35e8df3dc41d126683f18fe44ebe17)

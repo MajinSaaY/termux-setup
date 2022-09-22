@@ -30,6 +30,9 @@ Selecione uma das opções exibidas:
 - [Aria2](https://aria2.github.io/)
 - [Megatools](https://megatools.megous.com/)
 - [Rewind](https://github.com/laraib07/TermuxBackupTools)
+- [FFmpeg](https://ffmpeg.org/)
+- [mutagen](https://mutagen.readthedocs.io/en/latest/index.html)
+- [ImageMagick](https://imagemagick.org/index.php)
 
 # Créditos
 - [termux-url-opener do LordH3lmchen](https://gist.github.com/LordH3lmchen/dc35e8df3dc41d126683f18fe44ebe17)

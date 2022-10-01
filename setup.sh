@@ -8,9 +8,9 @@ echo -e "Ael: Hello $NAME (ㆁωㆁ)" >> /data/data/com.termux/files/usr/etc/mot
 
 #Initial setup
 pkg update -y 
-pkg in tmux vim zsh wget aria2 megatools ffmpeg python git man rclone imagemagick exiftool termux-api -y
+pkg in tmux vim zsh wget aria2 megatools ffmpeg python git man rclone imagemagick exiftool openssh termux-api -y
 pip install --upgrade pip
-pip install yt-dlp gallery_dl mutagen
+pip install yt-dlp gallery_dl mutagen csvkit
 mkdir ~/storage/downloads/Aria2
 mkdir ~/storage/downloads/Mega
 mkdir ~/storage/downloads/Wget

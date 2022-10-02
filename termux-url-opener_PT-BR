@@ -24,6 +24,7 @@ echo "${LY}i${W}) Baixar imagem"
 echo "${LY}w${W}) Baixar com wget"
 echo "${LY}a${W}) Baixar com aria2"
 echo "${LY}n${W}) Baixar com megatools"
+echo "${LY}g${W}) Clonar git"
 echo "${LY}x${W}) ${LR}Sair${R}"
 
 read CHOICE
@@ -118,6 +119,22 @@ case $CHOICE in
     n)
       megadl --path=storage/downloads/Mega/ $target
       if [ $? -eq 0 ] ; then
+        termux-toast -g top -b white -c black Download finalizado
+        echo "${LG}Feito.${R}"
+        sleep 3s
+      else 
+         termux-toast -g top -b white -c red Erro
+         echo "${LR}Erro.${R}"
+         echo ""
+         echo "${W}Pressione qualquer tecla para sair...${R}"
+         read -k 1 -r -s
+      fi
+	  ;;
+	g)
+	  echo "${LG}Informe o nome do repositório:${R}"
+	  read REPO
+	  git clone $target "storage/downloads/Git/$REPO"
+	  if [ $? -eq 0 ] ; then
         termux-toast -g top -b white -c black Download finalizado
         echo "${LG}Feito.${R}"
         sleep 3s

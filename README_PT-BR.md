@@ -24,8 +24,8 @@ Selecione uma das opções exibidas:
 ![URL-Opener](https://raw.githubusercontent.com/MajinSaaY/termux-setup/main/URL-Opener.png)
 
 # Ferramentas incluídas
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - [Supported sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
-- [gallery-dl](https://github.com/mikf/gallery-dl) - [Supported sites](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - [Sites suportados](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
+- [gallery-dl](https://github.com/mikf/gallery-dl) - [Sites suportados](https://github.com/mikf/gallery-dl/blob/master/docs/supportedsites.md)
 - [Wget](https://www.gnu.org/software/wget/?)
 - [Aria2](https://aria2.github.io/)
 - [Megatools](https://megatools.megous.com/)
@@ -34,6 +34,8 @@ Selecione uma das opções exibidas:
 - [mutagen](https://mutagen.readthedocs.io/en/latest/index.html)
 - [ImageMagick](https://imagemagick.org/index.php)
 - [ExifTool](https://exiftool.org/)
+- [csvkit](https://github.com/wireservice/csvkit)
+- [Git](https://github.com/git/gi)
 
 # Créditos
 - [termux-url-opener do LordH3lmchen](https://gist.github.com/LordH3lmchen/dc35e8df3dc41d126683f18fe44ebe17)

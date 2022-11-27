@@ -18,9 +18,11 @@ termux-setup-storage && bash <(curl https://raw.githubusercontent.com/MajinSaaY/
 
 # Usage
 Share any URL to Termux:
+
 ![Share.png](https://raw.githubusercontent.com/MajinSaaY/termux-setup/main/Share.png)
 
 Select one of the following options:
+
 ![URL-Opener](https://raw.githubusercontent.com/MajinSaaY/termux-setup/main/URL-Opener.png)
 
 # Tools included

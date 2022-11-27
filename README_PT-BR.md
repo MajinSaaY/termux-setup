@@ -6,9 +6,9 @@ Ele baixa vídeos, músicas, fotos, torrents, etc.
 
 # Pré-requisito
 - [Termux](https://f-droid.org/packages/com.termux/)
-- [Termux:API](https://f-droid.org/pt_BR/packages/com.termux.api/)
-- [Termux:Widget](https://f-droid.org/pt_BR/packages/com.termux.widget/)
-- [Termux:Styling](https://f-droid.org/pt_BR/packages/com.termux.styling/)
+- [Termux:API](https://f-droid.org/pt_BR/packages/com.termux.api/) (opcional)
+- [Termux:Widget](https://f-droid.org/pt_BR/packages/com.termux.widget/) (opcional)
+- [Termux:Styling](https://f-droid.org/pt_BR/packages/com.termux.styling/) (opcional)
 
 # Instalação
 Copie e cole no seu Termux:

@@ -76,7 +76,7 @@ m)
   fi
   ;;
 i)
-  gallery-dl --netrc --no-mtime -f '{filename}.{extension}' -d "/storage/emulated/0/Pictures/Gallery dl" $target
+  gallery-dl --netrc --no-mtime -f '{filename}.{extension}' -d "/storage/emulated/0/Pictures/GalleryDL" $target
   if [ $? -eq 0 ]; then
     termux-toast -g top -b white -c black Download finished
     echo "${LG}Done.${R}"
